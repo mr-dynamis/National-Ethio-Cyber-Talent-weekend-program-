@@ -28,49 +28,89 @@ Protocols: TCP (reliable), UDP (fast)
 - Sends raw bits (0s and 1s)
 - Deals with cables, signals, hardware
 
- 1. Physical Layer (Layer 1)
-   - Deals with cables, signals, hardware
-> Attacks:
-- Cable tapping (physically intercepting data)
-- Device theft
-- Signal jamming (blocking Wi-Fi signals)
-2. Data Link Layer (Layer 2)
-   - Works with MAC addresses and local network
-> Attacks:
-- MAC spoofing (fake MAC address)
-- ARP spoofing (redirecting traffic)
-- Switch attacks (like MAC flooding)
-3. Network Layer (Layer 3)
-   - Handles IP addresses and routing
-> Attacks:
-- IP spoofing (fake IP address)
-- Packet sniffing
-- Routing attacks
-- DDoS (Distributed Denial of Service)
-4. Transport Layer (Layer 4)
-   - Ensures delivery (TCP/UDP)
-> Attacks:
-- SYN flood attack (overloading server)
-- Session hijacking
-- Port scanning
-5. Session Layer (Layer 5)
-   - Manages connections/sessions
-> Attacks:
-- Session hijacking (stealing login session)
-- Replay attacks (resending captured data)
-6. Presentation Layer (Layer 6)
-   - Encryption and data formatting
-> Attacks:
-- SSL/TLS attacks
-- Encryption breaking
-- Man-in-the-middle (MITM)
-7. Application Layer (Layer 7)
-   - User-level apps like Telegram, browsers
-> Attacks:
-- Phishing attacks
-- Malware injection
-- SQL injection
-- Cross-site scripting (XSS)
-- Fake apps/websites
+
+
+## ⚠️ Attacks by Layer
+
+
+
+###  1. Physical Layer (Layer 1)
+Deals with hardware, cables, and signals.
+
+**Attacks:**
+- **Cable tapping** – Physically intercepting data from cables  
+- **Device theft** – Stealing hardware to access data  
+- **Signal jamming** – Blocking wireless communication  
+
+---
+
+###  2. Data Link Layer (Layer 2)
+Handles MAC addresses and local network communication.
+
+**Attacks:**
+- **MAC spoofing** – Faking MAC address to impersonate devices  
+- **ARP spoofing** – Redirecting traffic using fake ARP messages  
+- **MAC flooding** – Overloading switch to capture traffic  
+
+---
+
+###  3. Network Layer (Layer 3)
+Manages IP addresses and routing.
+
+**Attacks:**
+- **IP spoofing** – Using fake IP address  
+- **Packet sniffing** – Capturing network data  
+- **Routing attacks** – Manipulating traffic routes  
+- **DDoS** – Flooding server to make it unavailable  
+
+---
+
+###  4. Transport Layer (Layer 4)
+Ensures reliable data delivery (TCP/UDP).
+
+**Attacks:**
+- **SYN flood** – Sending many fake connection requests  
+- **Session hijacking** – Taking over active connection  
+- **Port scanning** – Finding open ports and vulnerabilities  
+
+---
+
+###  5. Session Layer (Layer 5)
+Manages sessions between systems.
+
+**Attacks:**
+- **Session hijacking** – Stealing session ID  
+- **Replay attack** – Resending captured data  
+
+---
+
+###  6. Presentation Layer (Layer 6)
+Handles encryption and data formatting.
+
+**Attacks:**
+- **SSL/TLS attacks** – Exploiting encryption weaknesses  
+- **Encryption breaking** – Cracking encrypted data  
+- **Man-in-the-Middle (MITM)** – Intercepting communication  
+
+---
+
+###  7. Application Layer (Layer 7)
+User-level applications like browsers and messaging apps.
+
+**Attacks:**
+- **Phishing** – Fake websites/emails to steal credentials  
+- **Malware injection** – Installing malicious software  
+- **SQL injection** – Attacking databases  
+- **Cross-Site Scripting (XSS)** – Injecting scripts into websites  
+- **Fake apps/websites** – Imitating real platforms  
+
+---
+
+## 📝 Notes
+
+- Lower layers → Hardware & network-based attacks  
+- Upper layers → Software & user-based attacks  
+
+
 
 
