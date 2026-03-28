@@ -6,7 +6,7 @@
 2. To retrieve the remaining 2, read on Steganography and what tools to use to extract information from an image
 3. 5th flag ???
 
-   # solution
+   # FLAGS
 1. solution for flag 1 and 2 ( solution flag 1 & 2.jpg )
 2. solution for flag 3 ( solution flag 3.jpg , passphrase flag 3.jpg )
 3. solution for flag 4 ( solution flag 4.jpg )
