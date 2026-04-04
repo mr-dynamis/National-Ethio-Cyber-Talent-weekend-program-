@@ -35,12 +35,12 @@ MM/DD/YYYY H:MM:SS AM/PM
 
 ## ✅ Q3. Log Clear Event – Event Record ID
 
-**Answer:** *(From Event ID 401 in this lab)*
+**Answer:** *(From Event ID 104 in this lab)*
 
 **Explanation:**
 
 * Normally: Event ID **1102** = Security log cleared
-* In this case: Event ID **401** was used
+* In this case: Event ID **104** was used
 * The required value is the **EventRecordID** (unique identifier of the event)
 
 ---
