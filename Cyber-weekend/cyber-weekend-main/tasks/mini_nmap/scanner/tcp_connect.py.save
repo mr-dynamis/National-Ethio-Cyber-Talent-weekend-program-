@@ -1,0 +1,17 @@
+
+
+# core/engine.py
+import asyncio
+
+class ScanEngine:
+    def __init__(self, target, ports):
+        self.target = target
+        self.ports = ports
+        self.results = []
+
+    async def run(self, scan_func):
+        tasks = [scan_func(self.target, port, self.results) for port in self.ports]
+        await asyncio.gather(*tasks)
+
+    def add_result(self, data):
+        self.results.append(data)
