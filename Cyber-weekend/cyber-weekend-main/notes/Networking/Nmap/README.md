@@ -19,7 +19,7 @@ Example:
 nmap 192.168.1.1
 ```
 
-➡️ Scans top 1000 ports of the target
+ Scans top 1000 ports of the target
 
 ---
 
@@ -43,7 +43,7 @@ nmap 192.168.1.0/24
 nmap -sn 192.168.1.0/24
 ```
 
-➡️ Shows which devices are online (no port scan)
+ Shows which devices are online (no port scan)
 
 ---
 
@@ -67,23 +67,23 @@ nmap -p- 192.168.1.1
 
 ---
 
-## 📌 5. Service Version Detection
+##  5. Service Version Detection
 
 ```bash
 nmap -sV 192.168.1.1
 ```
 
-➡️ Detects service versions (Apache, SSH, etc.)
+Detects service versions (Apache, SSH, etc.)
 
 ---
 
-## 📌 6. OS Detection
+##  6. OS Detection
 
 ```bash
 nmap -O 192.168.1.1
 ```
 
-➡️ Identifies operating system
+Identifies operating system
 
 ---
 
@@ -93,7 +93,7 @@ nmap -O 192.168.1.1
 nmap -A 192.168.1.1
 ```
 
-➡️ Combines OS detection, version detection, script scan, and traceroute
+ Combines OS detection, version detection, script scan, and traceroute
 
 ---
 
@@ -103,7 +103,7 @@ nmap -A 192.168.1.1
 nmap -F 192.168.1.1
 ```
 
-➡️ Scans fewer common ports quickly
+ Scans fewer common ports quickly
 
 ---
 
@@ -113,25 +113,25 @@ nmap -F 192.168.1.1
 nmap -oN scan.txt 192.168.1.1
 ```
 
-➡️ Normal output
+ Normal output
 
 ```bash
 nmap -oX scan.xml 192.168.1.1
 ```
 
-➡️ XML output
+ XML output
 
 ```bash
 nmap -oG scan.grep 192.168.1.1
 ```
 
-➡️ Grepable output
+ Grepable output
 
 ```bash
 nmap -oA scan_all 192.168.1.1
 ```
 
-➡️ Saves all formats at once
+ Saves all formats at once
 
 ---
 
@@ -141,7 +141,7 @@ nmap -oA scan_all 192.168.1.1
 nmap -sS 192.168.1.1
 ```
 
-➡️ Fast and less detectable scan
+ Fast and less detectable scan
 
 ---
 
